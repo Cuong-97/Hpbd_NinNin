@@ -16,6 +16,7 @@
     list-style: none;
     border: none;
     scroll-behavior: smooth;
+    /* overflow: hidden; */
 }
 body{
     display: flex;
@@ -26,6 +27,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 .box_1{
     overflow: hidden;
@@ -699,10 +701,12 @@ body{
         from {
             top: -10rem;
             left: 24rem;
+            transform:rotateX(180deg);
         }
         to {
             top: 16rem;
             left: -2rem;
+            transform: rotateX(0deg) rotateZ(381deg);
         }
     }
 
@@ -720,11 +724,13 @@ body{
     @keyframes leaf_6 {
         from {
             top: -10rem;
-            left: 24rem;
+            left: -24rem;
+            transform:rotateX(180deg);
         }
         to {
             top: 6rem;
             left: 14rem;
+            transform: rotateX(0deg) rotateZ(193deg);
         }
     }
 
@@ -747,5 +753,373 @@ body{
         to {
             top: -5rem;
             left: 14rem;
+        }
+    }
+.sakura_1{
+    width: 20px;
+    position: absolute;
+    animation: sakura_1 ease-in-out 8s infinite;
+    z-index: 1000;
+    opacity: 0;
+    animation-delay: 3s;
+}
+    @keyframes sakura_1 {
+        0% {
+            top: -40px;
+            left: 0;
+            transform: rotateX(0deg);
+            opacity: 0.5;
+        }
+        20% {
+            opacity: 1;
+        }
+        90% {
+            opacity: 1;
+        }
+        100% {
+            top: 556px;
+            left: 200px;
+            transform: rotateX(360deg);
+            opacity: 0;
+        }
+    }
+.sakura_2{
+    width: 20px;
+    position: absolute;
+    animation: sakura_2 ease-in-out 10s infinite;
+    z-index: 1000;
+    opacity: 0;
+    animation-delay: 5s;
+}
+    @keyframes sakura_2 {
+        0% {
+            top: -40px;
+            left: 40px;
+            transform: rotate(0deg);
+            opacity: 0.5;
+        }
+        20% {
+            opacity: 1;
+        }
+        40%{
+            top: 100px;
+            left: 200px;
+        }
+        90% {
+            opacity: 1;
+        }
+        100% {
+            top: 550px;
+            left: 20px;
+            transform: rotate(360deg);
+            opacity: 0;
+        }
+    }
+.sakura_3{
+    width: 20px;
+    position: absolute;
+    animation: sakura_3 ease-in-out 9s infinite;
+    z-index: 1000;
+    opacity: 0;
+    animation-delay: 8s;
+}
+    @keyframes sakura_3 {
+        0% {
+            top: -40px;
+            left: 60px;
+            transform: rotateY(0deg) rotateZ(0deg);
+            opacity: 0.5;
+        }
+        20% {
+            opacity: 1;
+        }
+        50%{
+            top: 300px;
+            left: 300px;
+        }
+        90% {
+            opacity: 1;
+        }
+        100% {
+            top: 500px;
+            left: 100px;
+            transform: rotateY(360deg) rotateZ(360deg);
+            opacity: 0;
+        }
+    }
+.sakura_4{
+    width: 20px;
+    position: absolute;
+    animation: sakura_4 ease-in-out 6s infinite;
+    z-index: 1000;
+    opacity: 0;
+    animation-delay: 5s;
+}
+    @keyframes sakura_4 {
+        0% {
+            top: -40px;
+            left: 10px;
+            transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg);
+            opacity: 0.5;
+        }
+        20% {
+            opacity: 1;
+        }
+        50%{
+            top: 250px;
+            left: 80px;
+        }
+        90% {
+            opacity: 1;
+        }
+        100% {
+            top: 600px;
+            left: 300px;
+            transform: rotateY(200deg) rotateX(260deg) rotateZ(260deg);
+            opacity: 0;
+        }
+    }
+.sakura_5{
+    width: 20px;
+    position: absolute;
+    animation: sakura_5 ease-in-out 8s infinite;
+    z-index: 1000;
+    opacity: 0;
+    animation-delay: 12s;
+}
+    @keyframes sakura_5 {
+        0% {
+            top: -40px;
+            left: 0px;
+            transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg);
+            opacity: 0.5;
+        }
+        20% {
+            opacity: 1;
+        }
+        90% {
+            opacity: 1;
+        }
+        100% {
+            top: 520px;
+            left: 100px;
+            transform: rotateY(200deg) rotateX(260deg) rotateZ(260deg);
+            opacity: 0;
+        }
+    }
+.sakura_6{
+    width: 20px;
+    position: absolute;
+    animation: sakura_6 ease-in-out 7s infinite;
+    z-index: 1000;
+    opacity: 0;
+    animation-delay: 10s;
+}
+    @keyframes sakura_6 {
+        0% {
+            top: -40px;
+            left: 36px;
+            transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg);
+            opacity: 0.5;
+        }
+        20% {
+            opacity: 1;
+        }
+        50%{
+            top: 280px;
+            left: 80px;
+        }
+        90% {
+            opacity: 1;
+        }
+        100% {
+            top: 540px;
+            left: 200px;
+            transform: rotateY(200deg) rotateX(260deg) rotateZ(260deg);
+            opacity: 0;
+        }
+    }
+.sakura_7{
+    width: 20px;
+    position: absolute;
+    animation: sakura_7 ease-in-out 10s infinite;
+    z-index: 1000;
+    opacity: 0;
+    animation-delay: 9s;
+}
+    @keyframes sakura_7 {
+        0% {
+            top: -40px;
+            left: 50px;
+            transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg);
+            opacity: 0.5;
+        }
+        20% {
+            opacity: 1;
+        }
+        90% {
+            opacity: 1;
+        }
+        100% {
+            top: 150px;
+            left: 60px;
+            transform: rotateY(200deg) rotateX(240deg) rotateZ(280deg);
+            opacity: 0;
+        }
+    }
+.sakura_8{
+    width: 20px;
+    position: absolute;
+    animation: sakura_8 ease-in-out 9s infinite;
+    z-index: 1000;
+    opacity: 0;
+    animation-delay: 14s;
+}
+    @keyframes sakura_8 {
+        0% {
+            top: -40px;
+            left: 52px;
+            transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg);
+            opacity: 0.5;
+        }
+        20% {
+            opacity: 1;
+        }
+        50%{
+            top: 350px;
+            left: 260px;
+        }
+        90% {
+            opacity: 1;
+        }
+        100% {
+            top: 620px;
+            left: 120px;
+            transform: rotateY(200deg) rotateX(240deg) rotateZ(280deg);
+            opacity: 0;
+        }
+    }
+.sakura_9{
+    width: 20px;
+    position: absolute;
+    animation: sakura_9 ease-in-out 8s infinite;
+    z-index: 1000;
+    opacity: 0;
+    animation-delay: 4s;
+}
+    @keyframes sakura_9 {
+        0% {
+            top: -40px;
+            left: -150px;
+            transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg);
+            opacity: 0.5;
+        }
+        20% {
+            opacity: 1;
+        }
+        90% {
+            opacity: 1;
+        }
+        100% {
+            top: 240px;
+            left: 252px;
+            transform: rotateY(200deg) rotateX(240deg) rotateZ(280deg);
+            opacity: 0;
+        }
+    }
+.sakura_10{
+    width: 20px;
+    position: absolute;
+    animation: sakura_10 ease-in-out 11s infinite;
+    z-index: 1000;
+    opacity: 0;
+    animation-delay: 4s;
+}
+    @keyframes sakura_10 {
+        0% {
+            top: 10px;
+            left: -10px;
+            transform: rotateY(10deg) rotateX(50deg) rotateZ(40deg);
+            opacity: 0.5;
+        }
+        20% {
+            opacity: 1;
+        }
+        50% {
+            top: 200px;
+            left: 220px;
+        }
+        90% {
+            opacity: 1;
+        }
+        100% {
+            top: 300px;
+            left: 100px;
+            transform: rotateY(200deg) rotateX(340deg) rotateZ(480deg);
+            opacity: 0;
+        }
+    }
+.sakura_11{
+    width: 20px;
+    position: absolute;
+    animation: sakura_11 ease-in-out 14s infinite;
+    z-index: 1000;
+    opacity: 0;
+    animation-delay: 4s;
+}
+    @keyframes sakura_11 {
+        0% {
+            top: 10px;
+            left: -10px;
+            transform: rotateY(10deg) rotateX(50deg) rotateZ(40deg);
+            opacity: 0.5;
+        }
+        20% {
+            opacity: 1;
+        }
+        50% {
+            top: 212px;
+            left: 240px;
+        }
+        90% {
+            opacity: 1;
+        }
+        100% {
+            top: 100px;
+            left: 144px;
+            transform: rotateY(200deg) rotateX(340deg) rotateZ(480deg);
+            opacity: 0;
+        }
+    }
+.sakura_12{
+    width: 20px;
+    position: absolute;
+    animation: sakura_12 ease-in-out 12s infinite;
+    z-index: 1000;
+    opacity: 0;
+    animation-delay: 4s;
+}
+    @keyframes sakura_12 {
+        0% {
+            top: 10px;
+            left: -10px;
+            transform: rotateY(10deg) rotateX(50deg) rotateZ(40deg);
+            opacity: 0.5;
+        }
+        20% {
+            opacity: 1;
+        }
+        40% {
+            top: 220px;
+            left: 88px;
+        }
+        90% {
+            opacity: 1;
+        }
+        100% {
+            top: 260px;
+            left: 28px;
+            transform: rotateY(200deg) rotateX(340deg) rotateZ(480deg);
+            opacity: 0;
         }
     }
