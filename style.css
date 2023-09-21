@@ -23,7 +23,7 @@ body{
     flex-direction: column;
     font-family: "Poppins", sans-serif;
     width: 100vw;
-    height: 116vh;
+    height: 118vh;
     background: url(./assets/bg.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -33,7 +33,7 @@ body{
     overflow: hidden;
     margin: auto;
     width: 20rem;
-    height: 37rem;
+    height: 38rem;
     border:0.3rem solid rgb(255, 255, 255);
     border-radius: 2rem;
     box-shadow: 2px 8px 38px 5px rgb(127, 197, 255);
@@ -697,7 +697,7 @@ body{
             }
         }
 .leaf_5{
-    top: 16rem;
+    top: 16.5rem;
     left: -2rem;
     width: 12rem;
     height: auto;
@@ -714,7 +714,7 @@ body{
             transform:rotateX(180deg);
         }
         to {
-            top: 16rem;
+            top: 16.5rem;
             left: -2rem;
             transform: rotateX(0deg) rotateZ(381deg);
         }
