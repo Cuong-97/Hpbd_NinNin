@@ -23,7 +23,7 @@ body{
     flex-direction: column;
     font-family: "Poppins", sans-serif;
     width: 100vw;
-    height: 110vh;
+    height: 116vh;
     background: url(./assets/bg.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -39,6 +39,7 @@ body{
     box-shadow: 2px 8px 38px 5px rgb(127, 197, 255);
     position: relative;
     display: block;
+    overflow: hidden;
 }
 .box_2{
     width: 100vw;
@@ -48,7 +49,7 @@ body{
     text-align: center;
     font-family: 'Dancing Script', cursive;
     color: #7b9eff;
-    padding: 0.5rem 1rem 2rem 1rem;
+    padding: 0.8rem 1rem 2rem 1rem;
 }
 .leaf_1{
     top: -1rem;
